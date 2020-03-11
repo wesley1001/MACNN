@@ -4,7 +4,7 @@ We investigate a novel end-to-end model based on deep learning named as Multi-sc
 ## Before Start
 To validate the effectiveness of MACNN, we propose two more models for comparison. One is the Single-scale Attention Convolutional Neural Network (SACNN) which has the same architecture with MACNN except for the multi convolutional layers. The other is the Multi-scale Convolutional Neural Network (MCNN) which differs from the architecture of MACNN by removing the attention block.
 
-We test our approach on 85 datasets from the UCR time series classification archive [[1]](http://www.timeseriesclassification.com/). Since the label formats of different datasets is not uniformed, we rectify them by starting from 1.
+We test our approach on 85 datasets from the UCR time series classification archive [[www.timeseriesclassification.com]](http://www.timeseriesclassification.com/). Since the label formats of different datasets is not uniformed, we rectify them by starting from 1.
 
 We select the following metrics to evaluate the performance of each method: Wins, Arithmetic Mean Ranking (AMR), Geometric Mean Ranking (GMR), and Mean Error (ME).
 
