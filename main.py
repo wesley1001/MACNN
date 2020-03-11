@@ -2,7 +2,7 @@
 
 import tensorflow as tf
 from data_set import data_set_dict
-from data_pre import get_data
+from data_prepare import get_data
 from model import Net
 import shutil
 
