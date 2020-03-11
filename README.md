@@ -9,7 +9,8 @@ We test our approach on 85 datasets from the UCR time series classification arch
 We select the following metrics to evaluate the performance of each method: Wins, Arithmetic Mean Ranking (AMR), Geometric Mean Ranking (GMR), and Mean Error (ME).
 
 ## Classification Results
- 
+|                                |       |        |       |       |         |          |         |       | 
+|--------------------------------|-------|--------|-------|-------|---------|----------|---------|-------|  
 |**Dataset**   | **BOSS**    | **COTE**   | **PROP** | **FCN**  | **ResNet**  | **SACNN** | **MCNN** | **MACNN**|
 |Adiac|	0.251|	0.19|	0.335|	0.143|	0.174|	0.174|	0.151|	0.151|
 |ArrowHead|	0.125|	0.123|	0.14|	0.12|	0.183|	0.137	|0.109|	0.109|
